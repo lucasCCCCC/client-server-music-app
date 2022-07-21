@@ -3,11 +3,9 @@ import java.net.*;
 
 public class Server {
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
 
-        Credentials credentials = new Credentials();
-
-        ServerSocket serverSocket = new ServerSocket(credentials.PORT);
+        ServerSocket serverSocket = new ServerSocket(Credentials.PORT);
 
         System.out.println("Server is running");
         int clientId = 0;

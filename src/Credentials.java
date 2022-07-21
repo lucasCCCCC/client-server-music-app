@@ -1,7 +1,7 @@
 public class Credentials {
 
     public static final String USERNAME = "postgres";
-    public static final String PASSWORD = "password";
+    public static final String PASSWORD = "lucasdb";
     public static final String URL = "jdbc:postgresql://localhost:5432/Music";
 
     public static final String HOST = "127.0.0.1";
